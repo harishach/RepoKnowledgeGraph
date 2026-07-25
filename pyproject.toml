@@ -1,0 +1,14 @@
+[project]
+name = "repo-kg"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "tree-sitter==0.23.2",
+    "tree-sitter-python==0.23.6",
+    "mcp==1.3.0",
+    "pyyaml==6.0.2",
+]
+
+[project.scripts]
+repo-kg-index = "indexer.run:main"
+repo-kg-serve = "mcp_server.server:main"

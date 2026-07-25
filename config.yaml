@@ -1,0 +1,14 @@
+ignore_patterns:
+  - "**/__pycache__/**"
+  - "**/.git/**"
+  - "**/node_modules/**"
+  - "**/dist/**"
+  - "**/build/**"
+  - "**/*.pyc"
+  - "**/.venv/**"
+
+languages:
+  python:
+    extensions: [".py"]
+
+max_file_size_kb: 500
