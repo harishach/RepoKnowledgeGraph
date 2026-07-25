@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "repo-kg": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "mcp_server.server"],
+      "cwd": "REPLACE_WITH_REPO_KG_PATH",
+      "env": {
+        "REPO_KG_DB": "REPLACE_WITH_REPO_KG_PATH/graph.db"
+      }
+    }
+  }
+}
